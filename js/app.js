@@ -60,7 +60,7 @@ ul.appendChild(fragment);
 window.addEventListener(`scroll`, () => {
     sections.forEach((sec) => {
         const react = sec.getBoundingClientRect();
-        if (react.top >= -100 && react.top <= 200) {
+        if (react.top >= -150 && react.top <= 250) {
             sections.forEach((remove) => {
                 remove.style.background = "white";
 
